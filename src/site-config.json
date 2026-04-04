@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Horizon Solar",
+    "phone": "555-sol-rq6",
+    "category": "solar",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "solar-trust-navy",
+      "categoryGroup": "solar",
+      "name": "Trust Navy",
+      "recipeFile": "solar/trust-navy.astro",
+      "colors": {
+        "primary": "#22C55E",
+        "primaryDark": "#052E16",
+        "primaryLight": "#c8f1d7",
+        "secondary": "#1da750",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#22C55E",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "solar/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Solar Power Built for San Diego",
+      "heroSubline": "Custom solar solutions designed for Southern California homes. Harness our abundant sunshine while protecting against coastal corrosion and wildfire risks.",
+      "aboutTitle": "Horizon Solar: San Diego's Solar Specialists",
+      "aboutText": [
+        "Founded in 2012, Horizon Solar began with a mission to bring reliable renewable energy to San Diego neighborhoods. Our team of local installers understands the unique challenges of coastal installations and inland heat.",
+        "We combine premium equipment with precision engineering to maximize energy production in San Diego's microclimates. Every system is tailored to your roof type, whether it's a La Jolla cottage or Scripps Ranch estate.",
+        "As active members of the San Diego Green Building Council, we're committed to sustainable growth that preserves our region's natural beauty while reducing energy costs for homeowners."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Designs",
+          "description": "Systems engineered for salt air corrosion resistance and wildfire-prone areas with specialized mounting solutions."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "12 years serving San Diego County means we know every permit process and utility requirement."
+        },
+        {
+          "title": "Premium Warranties",
+          "description": "25-year performance guarantees backed by manufacturers we've vetted for coastal durability."
+        },
+        {
+          "title": "Neighborhood Knowledge",
+          "description": "We've installed on every roof type from North Park bungalows to Del Mar contemporary homes."
+        }
+      ],
+      "ctaHeadline": "See Your Solar Potential",
+      "ctaSubline": "Get a free assessment of your home's energy savings with our San Diego-specific calculator."
+    },
+    "services": [
+      {
+        "slug": "residential-solar-installation",
+        "name": "Residential Solar Installation",
+        "shortDescription": "Complete home solar systems designed for San Diego's architecture and climate.",
+        "description": "From Spanish-tile roofs in Coronado to flat-top midcentury homes in Clairemont, we design solar arrays that complement your architecture while maximizing energy production. Our coastal installations use marine-grade hardware to prevent salt corrosion, while inland systems incorporate cooling ventilation for peak summer performance.\n\nWe handle everything from SDGE interconnection paperwork to historic district approvals in neighborhoods like Bankers Hill. Each installation includes bird-proofing measures tailored to local wildlife and custom monitoring that tracks your system's performance against San Diego weather patterns.",
+        "process": [
+          "Step 1: Site evaluation assessing roof condition, sun exposure, and local shading factors",
+          "Step 2: Custom system design with 3D modeling showing panel placement",
+          "Step 3: Permitting through San Diego County and your local jurisdiction",
+          "Step 4: Precision installation with minimal disruption to your household"
+        ],
+        "benefits": [
+          "Increased home value in San Diego's competitive market",
+          "Protection against SDGE rate increases",
+          "Reduced carbon footprint aligned with California's clean energy goals",
+          "Eligibility for local rebates and federal tax credits"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle HOA approvals in communities like La Jolla?",
+            "answer": "We've successfully navigated approvals with all major San Diego HOAs, providing aesthetic renderings and technical specifications that meet community standards while maximizing efficiency."
+          },
+          {
+            "question": "What's different about solar installations near the coast?",
+            "answer": "We use stainless steel hardware and anti-corrosion coatings on all coastal installations, plus additional wind-load calculations for beachfront properties."
+          }
+        ]
+      },
+      {
+        "slug": "solar-battery-storage",
+        "name": "Solar Battery Storage",
+        "shortDescription": "Energy resilience solutions for San Diego's power outages and time-of-use rates.",
+        "description": "With increasing wildfire risks in East County and planned outages in North County, battery storage provides essential backup power for San Diego homes. We install Tesla Powerwalls and other premium systems sized to your household's needs, whether you're in a downtown condo or Rancho Santa Fe estate.\n\nOur storage solutions automatically switch during outages and optimize for SDGE's time-of-use rates. We configure systems to power critical circuits like medical equipment or pool pumps, with remote monitoring through our San Diego-based support team. Coastal installations include humidity-controlled enclosures, while inland systems feature enhanced cooling for desert-edge communities.",
+        "process": [
+          "Step 1: Energy audit analyzing your usage patterns and outage risks",
+          "Step 2: Battery sizing calculation based on SDGE rate plans",
+          "Step 3: Custom electrical integration with your existing panel",
+          "Step 4: Smart programming for automatic outage response"
+        ],
+        "benefits": [
+          "Continuous power during PSPS outages in fire-risk areas",
+          "Maximized savings under SDGE's latest rate structures",
+          "Whole-home or selective circuit backup options",
+          "Increased independence from the grid"
+        ],
+        "faq": [
+          {
+            "question": "How long will batteries last during a blackout?",
+            "answer": "Most San Diego homes see 1-3 days of essential power, depending on usage. We design systems to prioritize your needs, whether it's keeping the fridge cold or AC running."
+          },
+          {
+            "question": "Do batteries help with coastal marine layer mornings?",
+            "answer": "Absolutely. Storage captures excess afternoon sun to power your home through June gloom mornings when panels produce less."
+          }
+        ]
+      },
+      {
+        "slug": "solar-maintenance",
+        "name": "Solar Maintenance",
+        "shortDescription": "Specialized care for San Diego solar systems facing unique environmental challenges.",
+        "description": "San Diego's combination of intense UV exposure, occasional Santa Ana winds, and coastal salt spray demands specialized solar maintenance. Our bi-annual service checks go beyond basic cleaning to include corrosion inspections on coastal systems, torque checks on mountings in windy areas like Torrey Pines, and thermal imaging to detect hot spots in East County's extreme heat.\n\nWe offer tailored maintenance plans based on your location - beach communities receive extra attention to salt buildup, while inland homes get focused cooling system checks before summer. Our technicians are certified for all major brands and keep current on San Diego-specific issues through ongoing training at Mesa College's renewable energy program.",
+        "process": [
+          "Step 1: Comprehensive system health check with performance analysis",
+          "Step 2: Environment-specific cleaning (salt removal, dust clearing, etc.)",
+          "Step 3: Electrical safety inspection and component testing",
+          "Step 4: Detailed report with efficiency benchmarks for San Diego conditions"
+        ],
+        "benefits": [
+          "Prevents costly repairs from undetected environmental damage",
+          "Maintains peak efficiency through seasonal changes",
+          "Extends system lifespan beyond warranty periods",
+          "Peace of mind with local same-day emergency service"
+        ],
+        "faq": [
+          {
+            "question": "How often should coastal systems be serviced?",
+            "answer": "We recommend quarterly inspections for homes within 2 miles of the ocean due to accelerated corrosion risks from salt air."
+          },
+          {
+            "question": "Do you handle SDGE meter maintenance too?",
+            "answer": "Yes, we coordinate with SDGE for any meter-related issues and ensure your net metering system communicates properly with their grid."
+          }
+        ]
+      },
+      {
+        "slug": "solar-panel-repair",
+        "name": "Solar Panel Repair",
+        "shortDescription": "Rapid response repairs for San Diego solar systems damaged by local conditions.",
+        "description": "When marine layer condensation causes electrical issues or Santa Ana winds loosen racking, San Diego solar owners need fast, knowledgeable repairs. Our team specializes in diagnosing and fixing problems unique to our region, from salt-corroded connectors in Ocean Beach to heat-warped components in El Cajon.\n\nWe maintain an extensive inventory of compatible parts at our Kearny Mesa warehouse for quick repairs. For historic homes in areas like Mission Hills, we source period-appropriate replacement materials that maintain architectural integrity. Emergency service calls prioritize households with medical equipment or elderly residents during extended outages.",
+        "process": [
+          "Step 1: Remote diagnostics via your system's monitoring data",
+          "Step 2: On-site troubleshooting with specialized testing equipment",
+          "Step 3: Transparent repair options with upfront pricing",
+          "Step 4: Post-repair performance verification"
+        ],
+        "benefits": [
+          "Same-day service for most San Diego County locations",
+          "Repairs that address root causes, not just symptoms",
+          "Technicians familiar with all local roof types",
+          "Direct communication with manufacturers for warranty claims"
+        ],
+        "faq": [
+          {
+            "question": "What's the most common repair in coastal areas?",
+            "answer": "Junction box resealing accounts for 40% of our coastal repairs - salt air penetrates compromised seals faster than manufacturers anticipate."
+          },
+          {
+            "question": "How do you repair tile roofs without causing damage?",
+            "answer": "Our Spanish tile specialists use historic preservation techniques to remove and replace tiles without breakage, a skill honed on Coronado's historic district homes."
+          }
+        ]
+      },
+      {
+        "slug": "solar-water-heating",
+        "name": "Solar Water Heating",
+        "shortDescription": "Efficient hot water solutions leveraging San Diego's abundant sunshine.",
+        "description": "While most think of photovoltaics, solar water heating remains incredibly effective in San Diego's climate. We install high-efficiency evacuated tube systems that provide 80% of a typical household's hot water needs, ideal for large families in Scripps Ranch or vacation rentals in Pacific Beach.\n\nOur designs account for local water quality - we install scale prevention systems for hard water areas and corrosion-resistant materials near the coast. Tankless hybrid systems combine with existing gas heaters for endless hot water during June gloom periods. For historic homes where visible roof equipment is restricted, we offer discrete ground-mounted options that still capture San Diego's reliable sunshine.",
+        "process": [
+          "Step 1: Hot water usage analysis and solar exposure assessment",
+          "Step 2: System design matching your household size and architecture",
+          "Step 3: Installation with minimal plumbing disruption",
+          "Step 4: Performance tuning to your water usage patterns"
+        ],
+        "benefits": [
+          "Immediate reduction in gas bills",
+          "Eligible for additional California rebates beyond solar PV",
+          "Longer lifespan than conventional water heaters",
+          "Reduces strain on your main electrical system"
+        ],
+        "faq": [
+          {
+            "question": "How does this work with San Diego's mild winters?",
+            "answer": "Our systems maintain efficiency even during cooler months - the evacuated tube technology captures diffuse sunlight effectively during marine layer periods."
+          },
+          {
+            "question": "Can it handle a vacation home's variable usage?",
+            "answer": "Yes, we install vacation-mode systems that prevent stagnation during unoccupied periods while providing instant hot water when you return."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikael R.",
+        "rating": 5,
+        "service": "Residential Solar Installation",
+        "text": "Horizon designed a perfect system for our 1940s Craftsman in North Park - they custom-fabricated low-profile mounts that preserved our roof's historic lines while maximizing production. Even during June gloom, we're producing more than projected.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Solar Battery Storage",
+        "text": "When the power went out during last October's Santa Anas, our Powerwall kept the lights on for 3 days straight. Horizon's team configured it to prioritize our home office and refrigerator - exactly what we needed during the outage.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Carlos T.",
+        "rating": 5,
+        "service": "Solar Maintenance",
+        "text": "Living in Ocean Beach means constant salt exposure. Horizon's quarterly maintenance caught corroding connectors before they failed. Their technician even noticed seagull nesting attempts under our panels and installed humane deterrents.",
+        "date": "2024-11-07"
+      },
+      {
+        "name": "Danielle P.",
+        "rating": 5,
+        "service": "Solar Panel Repair",
+        "text": "After a windstorm loosened panels on our Del Mar home, Horizon had a crew out same-day. They discovered the original installers used inland-grade hardware - replaced everything with marine-certified parts at no extra charge.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Rajesh V.",
+        "rating": 5,
+        "service": "Solar Water Heating",
+        "text": "Our Scripps Ranch home went from $200/month gas bills to $35 after Horizon's solar water heater install. The system seamlessly integrates with our existing tankless heater for those rare cloudy stretches.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Residential Solar Installation",
+        "text": "Horizon navigated La Jolla's strict HOA requirements beautifully - our panels are invisible from the street but produce 120% of our needs. Their knowledge of coastal microclimates resulted in better production than three competing proposals.",
+        "date": "2024-07-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "San Diego Solar Installation Experts | Horizon Solar",
+        "description": "Local solar specialists serving San Diego County with climate-adapted designs for coastal and inland homes. Get your free solar assessment today."
+      },
+      "about": {
+        "title": "About Horizon Solar - San Diego's Solar Pioneers",
+        "description": "Learn how our local expertise and community commitment make Horizon Solar the premier choice for San Diego renewable energy solutions."
+      },
+      "services": {
+        "title": "San Diego Solar Services | Custom Solutions",
+        "description": "Complete solar services designed for San Diego homes, from coastal installations to wildfire-resistant battery backup systems."
+      },
+      "contact": {
+        "title": "Contact Horizon Solar - San Diego Solar Experts",
+        "description": "Get in touch with San Diego's trusted solar professionals for a free consultation on residential and commercial solar solutions."
+      },
+      "reviews": {
+        "title": "Horizon Solar Reviews | San Diego Testimonials",
+        "description": "Read verified customer experiences with Horizon Solar's San Diego installations and maintenance services."
+      },
+      "service-areas": {
+        "title": "San Diego Solar Service Areas | Horizon Solar",
+        "description": "We provide premium solar installations throughout San Diego County, including coastal communities and inland neighborhoods."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Chula Vista",
+        "slug": "chula-vista-ca",
+        "state": "CA",
+        "content": "Horizon Solar proudly serves Chula Vista, a vibrant city with a population of approximately 275,000 residents. Known for its suburban homes built primarily in the 1970s and 1980s, Chula Vista offers ample rooftop space for solar panel installations. The mild year-round climate makes it an ideal location for harnessing solar energy, ensuring maximum efficiency and savings for homeowners. Our team specializes in tailoring solar solutions to fit the unique architectural styles and energy needs of Chula Vista residents. With rising energy costs, now is the perfect time to switch to solar and take advantage of local incentives. Horizon Solar is committed to helping Chula Vista homeowners reduce their carbon footprint while enjoying significant savings on their electricity bills.",
+        "localContext": "Chula Vista features 1970s-80s suburban homes and enjoys a mild year-round climate, making it a prime location for solar energy.",
+        "nearbyAreas": [
+          "San Diego",
+          "National City",
+          "Imperial Beach"
+        ]
+      },
+      {
+        "city": "Carlsbad",
+        "slug": "carlsbad-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve the beautiful beach community of Carlsbad, home to around 115,000 residents. Known for its charming cottages and coastal vibe, Carlsbad is an excellent place for solar energy adoption. The mild year-round climate ensures consistent solar energy production, allowing homeowners to maximize their savings. Our team understands the unique needs of Carlsbad residents, from preserving the aesthetic appeal of beach cottages to navigating local permitting processes. Solar panels not only reduce energy costs but also contribute to Carlsbad's commitment to sustainability. Let Horizon Solar help you make the switch to clean, renewable energy and enjoy the benefits of solar power in this picturesque coastal city.",
+        "localContext": "Carlsbad is a beach community with cottages and a mild year-round climate, ideal for solar energy solutions.",
+        "nearbyAreas": [
+          "Oceanside",
+          "Encinitas",
+          "Vista"
+        ]
+      },
+      {
+        "city": "Escondido",
+        "slug": "escondido-ca",
+        "state": "CA",
+        "content": "Horizon Solar is excited to serve Escondido, a city of approximately 152,000 residents known for its 1960s-70s ranch-style homes. These spacious properties provide excellent opportunities for solar panel installations, and the mild year-round climate ensures optimal energy production. Escondido homeowners can benefit from significant savings on their electricity bills while reducing their environmental impact. Our team specializes in designing solar systems that complement the unique architectural features of ranch homes. With local incentives and rising energy costs, there's never been a better time to go solar in Escondido. Horizon Solar is here to guide you through every step of the process, from consultation to installation.",
+        "localContext": "Escondido is characterized by 1960s-70s ranch homes and a mild year-round climate, perfect for solar energy adoption.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Valley Center",
+          "Poway"
+        ]
+      },
+      {
+        "city": "San Diego",
+        "slug": "san-diego-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve San Diego, California's second-largest city with a population of over 1.4 million. San Diego's diverse architecture, from modern homes to historic properties, offers a wide range of opportunities for solar energy solutions. The city's sunny, mild climate makes it one of the best places in the country for solar panel installations. Our team is experienced in navigating San Diego's unique permitting requirements and designing systems that meet the needs of urban and suburban homeowners alike. With abundant sunshine and strong local incentives, San Diego residents can achieve energy independence and significant savings. Horizon Solar is committed to helping San Diego transition to clean, renewable energy.",
+        "localContext": "San Diego boasts diverse architecture and a sunny, mild climate, making it a top location for solar energy.",
+        "nearbyAreas": [
+          "La Jolla",
+          "Coronado",
+          "Del Mar"
+        ]
+      },
+      {
+        "city": "Oceanside",
+        "slug": "oceanside-ca",
+        "state": "CA",
+        "content": "Horizon Solar is delighted to serve Oceanside, a coastal city with a population of around 175,000. Known for its beachfront properties and relaxed atmosphere, Oceanside is an ideal location for solar energy adoption. The mild year-round climate ensures consistent energy production, allowing homeowners to maximize their savings. Our team specializes in designing solar systems that complement Oceanside's coastal aesthetic while meeting the energy needs of its residents. With rising electricity costs and strong local incentives, now is the perfect time to switch to solar. Horizon Solar is here to help Oceanside homeowners harness the power of the sun and enjoy clean, renewable energy.",
+        "localContext": "Oceanside is a coastal city with beachfront properties and a mild climate, ideal for solar energy solutions.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Vista",
+          "Camp Pendleton"
+        ]
+      },
+      {
+        "city": "Encinitas",
+        "slug": "encinitas-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve Encinitas, a charming coastal city with a population of approximately 62,000. Known for its surf culture and laid-back vibe, Encinitas is a great place for solar energy adoption. The mild year-round climate ensures optimal solar panel performance, allowing homeowners to save on energy costs while reducing their environmental impact. Our team understands the unique needs of Encinitas residents, from preserving the coastal aesthetic to navigating local permitting processes. Solar panels are a smart investment for Encinitas homeowners, offering long-term savings and sustainability benefits. Horizon Solar is committed to helping Encinitas transition to clean, renewable energy.",
+        "localContext": "Encinitas is a coastal city with a surf culture and mild climate, perfect for solar energy solutions.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Solana Beach",
+          "Cardiff-by-the-Sea"
+        ]
+      },
+      {
+        "city": "Poway",
+        "slug": "poway-ca",
+        "state": "CA",
+        "content": "Horizon Solar is excited to serve Poway, a suburban city with a population of around 50,000. Known for its spacious properties and family-friendly atmosphere, Poway offers excellent opportunities for solar panel installations. The mild year-round climate ensures consistent energy production, allowing homeowners to maximize their savings. Our team specializes in designing solar systems that meet the unique needs of Poway residents, from large family homes to rural properties. With rising energy costs and strong local incentives, now is the perfect time to switch to solar. Horizon Solar is here to help Poway homeowners harness the power of the sun and enjoy clean, renewable energy.",
+        "localContext": "Poway features spacious suburban properties and a mild climate, making it an ideal location for solar energy.",
+        "nearbyAreas": [
+          "Escondido",
+          "Rancho Bernardo",
+          "Scripps Ranch"
+        ]
+      },
+      {
+        "city": "La Mesa",
+        "slug": "la-mesa-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve La Mesa, a city of approximately 60,000 residents known for its small-town charm and historic downtown. The mild year-round climate makes La Mesa an excellent location for solar energy adoption, ensuring consistent energy production and savings. Our team specializes in designing solar systems that complement the unique architectural styles of La Mesa homes, from historic properties to modern builds. Solar panels are a smart investment for La Mesa homeowners, offering long-term savings and environmental benefits. Horizon Solar is committed to helping La Mesa transition to clean, renewable energy and reduce its carbon footprint.",
+        "localContext": "La Mesa boasts small-town charm and a mild climate, ideal for solar energy solutions.",
+        "nearbyAreas": [
+          "El Cajon",
+          "Spring Valley",
+          "San Diego"
+        ]
+      },
+      {
+        "city": "El Cajon",
+        "slug": "el-cajon-ca",
+        "state": "CA",
+        "content": "Horizon Solar is delighted to serve El Cajon, a city with a population of around 103,000. Known for its affordable housing and family-friendly atmosphere, El Cajon is a great place for solar energy adoption. The mild year-round climate ensures optimal solar panel performance, allowing homeowners to save on energy costs while reducing their environmental impact. Our team specializes in designing solar systems that meet the unique needs of El Cajon residents, from single-family homes to multi-unit properties. With rising electricity costs and strong local incentives, now is the perfect time to switch to solar. Horizon Solar is here to help El Cajon homeowners harness the power of the sun.",
+        "localContext": "El Cajon features affordable housing and a mild climate, making it a prime location for solar energy.",
+        "nearbyAreas": [
+          "La Mesa",
+          "Santee",
+          "Lakeside"
+        ]
+      },
+      {
+        "city": "Santee",
+        "slug": "santee-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve Santee, a suburban city with a population of approximately 58,000. Known for its outdoor recreational opportunities and family-friendly atmosphere, Santee is an excellent place for solar energy adoption. The mild year-round climate ensures consistent energy production, allowing homeowners to maximize their savings. Our team specializes in designing solar systems that meet the unique needs of Santee residents, from energy-efficient homes to larger properties. Solar panels are a smart investment for Santee homeowners, offering long-term savings and sustainability benefits. Horizon Solar is committed to helping Santee transition to clean, renewable energy.",
+        "localContext": "Santee is a suburban city with outdoor recreational opportunities and a mild climate, ideal for solar energy solutions.",
+        "nearbyAreas": [
+          "El Cajon",
+          "Lakeside",
+          "La Mesa"
+        ]
+      },
+      {
+        "city": "Vista",
+        "slug": "vista-ca",
+        "state": "CA",
+        "content": "Horizon Solar is excited to serve Vista, a city of around 100,000 residents known for its agricultural heritage and suburban charm. The mild year-round climate makes Vista an ideal location for solar energy adoption, ensuring consistent energy production and savings. Our team specializes in designing solar systems that meet the unique needs of Vista homeowners, from rural properties to suburban developments. Solar panels are a smart investment for Vista residents, offering long-term savings and environmental benefits. With rising energy costs and strong local incentives, now is the perfect time to switch to solar. Horizon Solar is here to help Vista harness the power of the sun.",
+        "localContext": "Vista features agricultural heritage and suburban charm, with a mild climate perfect for solar energy.",
+        "nearbyAreas": [
+          "Oceanside",
+          "Carlsbad",
+          "San Marcos"
+        ]
+      },
+      {
+        "city": "San Marcos",
+        "slug": "san-marcos-ca",
+        "state": "CA",
+        "content": "Horizon Solar is proud to serve San Marcos, a growing city with a population of approximately 96,000. Known for its educational institutions and family-friendly atmosphere, San Marcos is a great place for solar energy adoption. The mild year-round climate ensures optimal solar panel performance, allowing homeowners to save on energy costs while reducing their environmental impact. Our team specializes in designing solar systems that meet the unique needs of San Marcos residents, from new construction to existing homes. Solar panels are a smart investment for San Marcos homeowners, offering long-term savings and sustainability benefits. Horizon Solar is committed to helping San Marcos transition to clean, renewable energy.",
+        "localContext": "San Marcos is a growing city with educational institutions and a mild climate, ideal for solar energy solutions.",
+        "nearbyAreas": [
+          "Escondido",
+          "Vista",
+          "Carlsbad"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-solar-installation": "/images/service-residential-solar-installation.webp",
+      "solar-battery-storage": "/images/service-solar-battery-storage.webp",
+      "solar-maintenance": "/images/service-solar-maintenance.webp",
+      "solar-panel-repair": "/images/service-solar-panel-repair.webp",
+      "solar-water-heating": "/images/service-solar-water-heating.webp"
+    },
+    "servicesResponsive": {
+      "residential-solar-installation": {
+        "src": "/images/service-residential-solar-installation.webp",
+        "srcset": "/images/service-residential-solar-installation-400w.webp 400w, /images/service-residential-solar-installation-800w.webp 800w, /images/service-residential-solar-installation-1200w.webp 1200w, /images/service-residential-solar-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-battery-storage": {
+        "src": "/images/service-solar-battery-storage.webp",
+        "srcset": "/images/service-solar-battery-storage-400w.webp 400w, /images/service-solar-battery-storage-800w.webp 800w, /images/service-solar-battery-storage-1200w.webp 1200w, /images/service-solar-battery-storage.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-maintenance": {
+        "src": "/images/service-solar-maintenance.webp",
+        "srcset": "/images/service-solar-maintenance-400w.webp 400w, /images/service-solar-maintenance-800w.webp 800w, /images/service-solar-maintenance-1200w.webp 1200w, /images/service-solar-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-panel-repair": {
+        "src": "/images/service-solar-panel-repair.webp",
+        "srcset": "/images/service-solar-panel-repair-400w.webp 400w, /images/service-solar-panel-repair-800w.webp 800w, /images/service-solar-panel-repair-1200w.webp 1200w, /images/service-solar-panel-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-water-heating": {
+        "src": "/images/service-solar-water-heating.webp",
+        "srcset": "/images/service-solar-water-heating-400w.webp 400w, /images/service-solar-water-heating-800w.webp 800w, /images/service-solar-water-heating-1200w.webp 1200w, /images/service-solar-water-heating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
